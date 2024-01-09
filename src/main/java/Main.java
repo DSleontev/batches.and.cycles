@@ -6,7 +6,7 @@ public class Main {
 
         VacationService services = new VacationService();
         System.out.println();
-        System.out.println("Количество отпусков за год "+ services.calculate(100000,60000,150000));
+        System.out.println("Количество отпусков за год " + services.calculate(100000, 60000, 150000));
 
     }
 }
